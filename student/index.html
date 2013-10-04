@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+	<script type="text/javascript" src="../source/scripts/js.js"></script>
+	<script type="text/javascript" src="../source/scripts/ui.js"></script>
+	<script type="text/javascript" src="../source/style/log.css"></script>
+	<script type="text/javascript" src="functions/script.js"></script>
+	<script>
+		$(function(){
+			$('#forgotpass').click(function(){
+				a = prompt("Enter your Student Number.");
+				if(a!=""){
+					alert("Check your E-mail for your password.");
+				}
+				
+			});
+		});
+	</script>
+
+</head>
+<body style= "background: transparent url(../images/bg.png); background-repeat: no-repeat;">
+
+	
+			<div>
+			<img style="margin-left:80px;" src="../images/capss.png"/>
+			
+					<div style="margin-left:270px; margin-top:50px;font-size:40px;color:blue;font-family:Century Gothic;">
+					LOG-IN FORM</div>
+					
+				<div style="margin:auto;margin-top:50px;">
+					<div class="login-error" style="color:red;font-size:20px;"></div>
+				</div>
+				
+				<div style="margin:auto;margin-top:30px;" >
+					<span class="inline" style="width:90px;font-size:37px;">Username: </span><input style="height:70px;width:480px;font-size:30px;" type="text" class="txt" id="username" maxlength="9" placeholder="Enter your Student Number">
+				</div>
+				
+				<div style="margin:auto;margin-top:30px;">
+					<span class="inline" style="width:90px;font-size:37px;">Password:</span> &nbsp;	 <input style="height:70px;width:480px;font-size:30px;" type="password" class="txt" id="password" placeholder="Enter your Password">
+				</div>
+				
+				<div style="margin-top:30px;">
+					<div style="margin-top:5px;">
+	<button style="height:70px;width:480px;margin-left:165px;font-size:30px;" id="login" >LOGIN</button><br>
+			<button style="height:70px;width:480px;margin-left:165px;font-size:30px;" ><a style=" text-decoration: none;" href="../index.html"> BACK PAGE </a> </button>
+		
+					</div>
+					
+				</div>
+			</div>
+			
+</body>
+</html>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<widget xmlns="http://w3.org/ns/widgets" xmlns:rim="http://www.blackberry.com/ns/widgets" version="2.0.0.0" id="CAP">
+
+
+<name>CCS Access Point</name>
+<author>iThree</author>
+<icon src="icon.png" />
+<rim:splash src="splashscreen.png"/>
+<content src="index.html" />
+<feature id="blackberry.app">
+    <param name="orientation" value="portrait" />
+</feature>
+<access uri="http://www.gordoncollegeccs.edu.ph" subdomains="true" />
+<access subdomains="false" uri="*"/>
+</widget>

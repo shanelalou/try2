@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+	<link rel="stylesheet" href="assets/bbtheme.css" />
+	<link rel="stylesheet" href="styles.css" />
+
+<script src="assets/bbthemejs.js"></script>
+
+
+	</head>
+	
+	<body>
+	
+	
+	<div id="actionBarSample" data-role="page" >
+	
+			<!-- This is how you set up your tab overflow menu (left side panel) -->
+			<div data-role="panel" id="left" data-dark-modal="true" data-position="left" data-display="reveal" data-theme="a" class="bb10-panel">
+				<ul data-role="listview" data-theme="a">
+				<div id="content" align="center"><img src="images/capss.png" width="400"></div>
+					<li><a href="#page2" data-transition="flip"><div id="content"><img src="images/schools.png"></div></a></li>
+					<li><a href="vmg.html" data-transition="flow"><div id="content"><img src="images/vmgg.png"></div></a></li>
+					<li><a href="admission.html" data-transition="flow"><div id="content"><img src="images/admissionnn.png"></div></a></li>
+					<li><a href="act.html" data-transition="flow"><div id="content"><img src="images/coursessss.png"></div></a></li>
+					<li><a href="calendar.html" data-transition="flip"><div id="content"><img src="images/eventss.png"></div></a></li>
+					<li><a href="industry.html" data-transition="flip"><div id="content"><img src="images/program.png"></div></a></li>
+					<li><a  href="contact.html" data-transition="flip"><div id="content"><img src="images/links.png"></div></a></li>
+				</ul>
+			</div>
+
+			<!-- This is how you set up your action overflow menu (right side panel) -->
+			<div data-role="panel" id="right" data-position="right" data-display="overlay" data-theme="a" class="bb10-panel">
+				<ul data-role="listview" data-theme="a">
+					<li><p><font face="Century Gothic" color="white">LOG-IN AS...</font></p></li>
+					<li id="o1-p" class="inBar"><a data-ajax="false" href="student/"><div id="content"><img src="images/student.png"></div></a></li>
+					<li id="o1-p" class="inBar"><a  data-ajax="false" href="student/"><div id="content"><img src="images/parent.png"></div></a></li>
+					<li id="o1-p" class="inBar"><a data-ajax="false" href="faculty/"><div id="content"><img src="images/prof.png"></div></a></li>
+				</ul>
+				<div data-role="fixedpanelbutton">
+					<ul data-role="listview" data-theme="a">
+						<li><a href="help.html" data-transition="pop"><div id="content"><img src="images/help.png"></div></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div data-role="header" data-position="fixed">
+			<center><img src="images/header1.png" width="70%"></center>
+			</div>
+			<div data-role="content"  style= "background: transparent url(images/bg.png); background-repeat: no-repeat;" >
+			
+			<div id="content" align="center"><img src="images/capss.png" width="45%"></div>
+			
+			
+			<!---SLIDESHOW-->
+			<span id="sl_play" class="sl_command">&nbsp;</span>
+	<span id="sl_pause" class="sl_command">&nbsp;</span>
+	<span id="sl_i1" class="sl_command sl_i">&nbsp;</span>
+	<span id="sl_i2" class="sl_command sl_i">&nbsp;</span>
+	<span id="sl_i3" class="sl_command sl_i">&nbsp;</span>
+	<span id="sl_i4" class="sl_command sl_i">&nbsp;</span>
+	
+	<section id="slideshow">
+	
+		<div class="container">
+			<div class="c_slider"></div>
+			<div class="slider">
+				<figure>
+					<img src="img/dummy-640x310-1.jpg" alt="" width="640" height="310" />
+					<figcaption>Gordon College</figcaption>
+				</figure><!--
+				--><figure>
+					<img src="img/dummy-640x310-2.jpg" alt="" width="640" height="310" />
+					<figcaption>QWERTY Typing Test</figcaption>
+				</figure><!--
+				--><figure>
+					<img src="img/dummy-640x310-3.jpg" alt="" width="640" height="310" />
+					<figcaption>It's More Fun in GC-CCS</figcaption>
+				</figure><!--
+				--><figure>
+					<img src="img/dummy-640x310-4.jpg" alt="" width="640" height="310" />
+					<figcaption>BlackBerry Academic Program</figcaption>
+				</figure>
+			</div>
+		</div>
+		
+		
+		
+		<ul class="dots_commands"><!--
+			--><li><a title="Show slide 1" href="#sl_i1">Slide 1</a></li><!--
+			--><li><a title="Show slide 2" href="#sl_i2">Slide 2</a></li><!--
+			--><li><a title="Show slide 3" href="#sl_i3">Slide 3</a></li><!--
+			--><li><a title="Show slide 4" href="#sl_i4">Slide 4</a></li>
+		</ul>
+		
+	</section>
+			<!--END SLIDE-->
+			 <p align="center"><font size="5%" face="Century Gothic"><strong>Version 1.0</strong></font></p>
+			  <p align="justify"><font size="5%" face="Century Gothic">CCS Access Point (CAP) is a cross-platform mobile portal created for Gordon College-College of Computer Studies. A mobile app custom built to designed for Students, Teachers and Parents. It allows viewing of Grades provides up-to-date News and Advisories from the College and offers a convenient way of viewing College information. A Portal Available Anytime and Anywhere 24/7.</font></p>
+	  
+				
+			</div><!-- /content -->
+			<div data-role="footer" data-position="fixed">
+				<div data-role="actionbar" data-position="fixed">
+					<a id="tover" data-role="tab-overflow" href="#left" class="">
+						<!-- Uncomment this to have initial content in the tab overflow button
+						<img src="img/generic_81_81_placeholder.png" alt="" />
+						<p>0 Options</p>
+						-->
+					</a>
+					
+					
+					<a id="aover" data-role="action-overflow" href="#right">
+					</a>
+				</div>
+
+			</div>
+		</div><!-- /page -->
+		
+		<!--HISTORY-->
+	<div data-role="page" id="page2" data-theme="c"  >
+ <div data-role="header" data-position="fixed">
+
+				
+			<p align="center"><font size="8%" face="Century Gothic">HISTORY</font></p>
+			</div>
+  <div data-role="content" style= "background: transparent url(images/bg.png); background-repeat: no-repeat;">
+  
+	 <center><div id="content"><img src="images/gcnesss.jpg"></div></center>
+	 <p align="justify"><font size="5%" face="Century Gothic">&nbsp;&nbsp;&nbsp;&nbsp;Gordon College, also known as Dalubhasaang Gordon in Filipino, is a local government-funded college in Olongapo City, Philippines. It was founded on February 24, 1999 by virtue of City Ordinance No. 9, and is composed of four constituent colleges: College of Computer Studies, College of Business and Accountancy, College of Education, and College of Nursing. Other academic units include the School of Midwifery, Department of Vocational Technology, Faculty of Arts and Sciences, Center for Research and Development, and Institute of Graduate Studies. As of now, Gordon College - College of Computer Studies is an active member and pioneer school in Asia Pacific to roll-out BlackBerry Academic Program. GC-CCS is also academic partner of IBM DB2.GC-CCS program (BSIT,BSCS,ACT) is currently accredited Level 1.</font></p>
+	<p align="center"><font size="6%" face="Century Gothic"><strong>Undergraduate Courses<strong></font>
+	<p align="left"><font size="5%" face="Century Gothic">-Bachelor of Science in Nursing<br>-Bachelor of Elementary Education<br>-Bachelor of Secondary Education<br>-Bachelor of Science in Accountancy (5 years)<br>-Bachelor of Science in Accounting Technology (4 years)<br>-Bachelor of Science in Customs Administration<br>-Bachelor of Science in Business Administration (formerly Business Management)<br>-Associate in Hotel and Restaurant Management (2 years)<br>-Bachelor of Science in Computer Science<br>-Bachelor of Science in Information Technology<br>-Associate in Computer Technology (2 years)<br>-Graduate of Midwifery</font>
+	<br><Br><br><br><br>
+	<div data-role="footer" data-theme="a" data-position="fixed">
+	<div id="action-bar-area" data-role="actionbar">
+				<div data-role="back"></div>
+				
+					</a>
+			</div>
+	</div>
+  </div>
+  </div>
+	<!--HISTORY END-->
+	
+	
+	
+	</body>
+
+
+</html>
